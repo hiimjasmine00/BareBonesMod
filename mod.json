@@ -1,0 +1,14 @@
+{
+    "geode": "3.4.0",
+    "gd": {
+        "android": "2.206",
+        "win": "2.206",
+        "mac": "2.206"
+    },
+    "version": "v1.0.0",
+    "id": "hiimjustin000.bare_bones_mod",
+    "name": "Bare Bones Mod",
+    "developer": "hiimjustin000",
+    "description": "A bare-bones mod to test my stuff",
+    "repository": "https://github.com/hiimjustin000/BareBonesMod"
+}

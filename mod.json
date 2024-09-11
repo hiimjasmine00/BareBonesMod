@@ -1,11 +1,11 @@
 {
-    "geode": "3.4.0",
+    "geode": "3.5.0",
     "gd": {
         "android": "2.206",
         "win": "2.206",
         "mac": "2.206"
     },
-    "version": "v1.0.0",
+    "version": "v1.0.1",
     "id": "hiimjustin000.bare_bones_mod",
     "name": "Bare Bones Mod",
     "developer": "hiimjustin000",

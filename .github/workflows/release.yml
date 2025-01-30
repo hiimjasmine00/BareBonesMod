@@ -1,0 +1,20 @@
+name: Release Geode Mod
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Release mod
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+      url: ${{ steps.release.outputs.url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: hiimjasmine00/release-geode-mod@main
+        id: release
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

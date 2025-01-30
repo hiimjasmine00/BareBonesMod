@@ -1,18 +1,13 @@
 {
-    "geode": "4.1.2",
+    "geode": "4.2.0",
     "gd": {
         "android": "2.2074",
         "win": "2.2074",
         "mac": "2.2074"
     },
-    "version": "v1.0.2",
+    "version": "v1.0.3",
     "id": "hiimjustin000.bare_bones_mod",
     "name": "Bare Bones Mod",
     "developer": "hiimjustin000",
-    "description": "A bare-bones mod to test my stuff",
-    "links": {
-        "community": "https://discord.gg/QVKmbvBXA7",
-        "source": "https://github.com/hiimjustin000/FakeRate",
-        "homepage": "https://www.hiimjustin000.com"
-    }
+    "description": "A bare-bones mod to test my stuff"
 }

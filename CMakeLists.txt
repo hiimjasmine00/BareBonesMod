@@ -3,12 +3,11 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_OSX_ARCHITECTURES "x86_64;arm64")
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
+set(GEODE_DISABLE_PRECOMPILED_HEADERS ON)
 
-project(BareBonesMod VERSION 1.0.2)
+project(BareBonesMod VERSION 1.0.3)
 
-add_library(${PROJECT_NAME} SHARED
-    src/main.cpp
-)
+add_library(${PROJECT_NAME} SHARED main.cpp)
 
 if (NOT DEFINED ENV{GEODE_SDK})
     message(FATAL_ERROR "Unable to find Geode SDK! Please define GEODE_SDK environment variable to point to Geode")

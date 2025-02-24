@@ -37,7 +37,7 @@ jobs:
         uses: hiimjasmine00/build-geode-mod@main
         with:
           bindings: hiimjasmine00/bindings
-          bindings-ref: members
+          bindings-ref: editorui
           build-config: ${{ matrix.config.build-config || 'Release' }}
           export-pdb: true
           export-symbols: true

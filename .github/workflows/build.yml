@@ -38,6 +38,7 @@ jobs:
         with:
           bindings: hiimjasmine00/bindings
           bindings-ref: cccontentmanager
+          configure-args: '-DSKIP_BUILDING_CODEGEN=OFF'
           build-config: ${{ matrix.config.build-config || 'Release' }}
           export-pdb: true
           export-symbols: true

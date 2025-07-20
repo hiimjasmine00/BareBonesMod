@@ -17,6 +17,7 @@ else()
 endif()
 
 if (WIN32)
+    include($ENV{GEODE_SDK}/cmake/CPM.cmake)
     CPMAddPackage("gh:fmtlib/fmt#11.1.4")
 endif()
 

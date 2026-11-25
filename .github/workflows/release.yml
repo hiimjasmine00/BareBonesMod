@@ -12,7 +12,7 @@ jobs:
       url: ${{ steps.release.outputs.url }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: hiimjasmine00/release-geode-mod@main
         id: release
